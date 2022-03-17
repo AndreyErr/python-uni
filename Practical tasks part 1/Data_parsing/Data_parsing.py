@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def statistik():
     # Парсеринг
-    url = requests.get('https://raw.githubusercontent.com/Newbilius/Old-Games_DOS_Game_Gauntlet/master/GAMES.csv')
+    url = requests.get('https://raw.githubusercontent.com/AndreyErr/python-uni/main/Practical%20tasks%20part%201/Data_parsing/GAMES.csv')
     true_data = []
     correct_data_format = ((url.text).replace('"', '')).splitlines()
     for line in correct_data_format:
@@ -26,7 +26,7 @@ def statistik():
         genre_counter = {year: len(alldata[f'{year}'])}
         ONyears.update(genre_counter)
     plt.bar(ONyears.keys(), ONyears.values())
-    plt.savefig("Года.png")
+    plt.savefig("years.png")
 
     # Графики жанров по годам
     figure, axis = plt.subplots(14, 2)
@@ -39,14 +39,14 @@ def statistik():
             tick.set_rotation(45)
     figure.set_size_inches(20, 80)
     plt.subplots_adjust(hspace=0.8)
-    plt.savefig("По годам.png", dpi=100)
+    plt.savefig("distribution_of_genres_by_year.png", dpi=100)
 
     # Поломанный график жанров по годам
     figure, axis = plt.subplots(1, 1)
     for year in range(1981, 2009):
         yeardata = Counter(alldata[f'{year}'])
         plt.bar(year, yeardata.keys(), yeardata.values(),  1, label='Men')
-        plt.savefig("Тест.png", dpi=100)
+        plt.savefig("Test.png", dpi=100)
     print("Графики построены")
     plt.show()
 
