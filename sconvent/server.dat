@@ -1,0 +1,66 @@
+(
+
+
+datacenters
+
+# Company datacenterID country datacenterIP
+
+(NVDC 1521452 Germany $125.211.116.21)
+(GOOGLE 5263514 Russia $19.19.19.19)
+(YANDEX 9864521 USA $22.13.23.52)
+(GOOGLE 8542652 Germany $44.55.44.55)
+(NGINX 7984652 Finland $66.225.225.31)
+(META 7852145 Germany $192.185.211.112)
+(LOOPdc 7897945 USA $36.12.25.25)
+(JJJdc 2201245 Russia $1.1.12.23)
+(MICROSOFT 1525212 Russia $58.25.58.25)
+(IBM 8529963 Germany $36.21.25.221)
+(IBM 7745213 USA $223.36.65.25)
+)
+  
+ (
+ servers 
+ 
+ # ServerInfo (id of the datacenter by location, serverID, serverIP, owner, class/type)
+ (
+ (datacenterid 5263514)
+ (id 1253652)
+ (ip $221.136.225.1)
+ (owner Jhon_Lev)
+ (class file)
+ )
+ 
+ (
+ (datacenterid 7745213)
+ (id 4521236)
+ (ip $52.36.32.12)
+ (owner Adam_Linov)
+ (class dhcp)
+ )
+ 
+ (
+ (datacenterid 7852145)
+ (id 8585254)
+ (ip $52.36.155.45)
+ (owner Andrey_Ernst)
+ (class dns)
+ )
+ 
+ (
+ (datacenterid 8529963)
+ (id 4521563)
+ (ip 52.23.36.65)
+ (owner Bill_Gates)
+ (class process)
+ )
+ 
+ (
+ (datacenterid 5263514)
+ (id 2525653)
+ (ip $56.85.65.95)
+ (owner Jack_Norv)
+ (class file)
+ )
+ 
+ 
+ )
