@@ -1,5 +1,7 @@
 # Practikal tasks part 1
 ---
+All sorts of tasks from the university are collected here
+---
 __Description:__
 
 - [File: Math1](#math1)
@@ -43,4 +45,3 @@ Write a function that adds information about the exception that has occurred (cl
 __Final output log:__
 
 [log file](https://github.com/AndreyErr/python-uni/blob/main/Practical%20tasks%20part%201/Error_Handling/log.log)
-
