@@ -10,6 +10,8 @@ __Description:__
 
 - [Folder: Error_Handling](#Error_Handling)
 
+- [Folder: To_base](#To_base)
+
 ---
 ### <a name="math1">File: Math1</a>
 __Task:__
@@ -45,3 +47,14 @@ Write a function that adds information about the exception that has occurred (cl
 __Final output log:__
 
 [log file](https://github.com/AndreyErr/python-uni/blob/main/Practical%20tasks%20part%201/Error_Handling/log.log)
+
+---
+### <a name="To_base">Folder: To_base</a>
+
+__Task:__
+Using the doctest module
+
+- Add the documentation to the program as a docstring string.
+- Specify examples in doctest format. Examples should cover boundary cases.
+- Test the program by calling the doctest module.
+- Transfer the examples to a separate file and test the program again.
