@@ -6,6 +6,12 @@ __Description:__
 
 - [File: Math1](#math1)
 
+- [File: Math2](#math2) 5
+
+- [File: Math3](#math3) 6
+
+- [File: Math4](#math4) 7
+
 - [Folder: Data_parsing](#Data_parsing)
 
 - [Folder: Error_Handling](#Error_Handling)
